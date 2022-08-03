@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.w-container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0;
+}
+
+nav ul {
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li {
+  font-size: 0.85rem;
+}
+
+.fa-instagram {
+  font-size: 24px;
+  margin: auto 0;
+}
+
+/* メインビジュアル */
+.main-visual img {
+  height: 420px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* About */
+.sec-title {
+  text-align: center;
+  margin: 80px 0;
+}
+
+.profile-info {
+  margin-bottom: 30px;
+}
+
+.profile-info li:first-child {
+  margin-bottom: 30px;
+}
+
+/* Works */
+#works ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* News */
+#news p {
+  font-size: 0.9rem;
+  padding: 1em;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+#news .first {
+  border-top: 1px solid #c8c8c8;
+}
+
+#news p span {
+  margin-left: 80px;
+}
+
+/* Contact */
+#contact dl {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+#contact dt {
+  width: 15%;
+}
+
+#contact dd {
+  width: 85%;
+  margin-bottom: 10px;
+}
+
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #c8c8c8;
+}
+
+#contact dd textarea {
+  height: 10rem;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 120px;
+}
+
+.btn input {
+  width: 200px;
+  background: #24292e;
+  color: #fff;
+  border: 1px solid #24292e;
+  padding: 15px 0;
+  transition: all 0.3s;
+}
+
+.btn input:hover {
+  background: inherit;
+  color: #24292e;
+}
+
+/* footer  */
+footer {
+  background: #24292e;
+  color: #fff;
+  font-size: 0.5rem;
+  padding: 10px 0;
+  text-align: center;
+}
